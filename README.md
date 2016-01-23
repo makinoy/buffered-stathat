@@ -1,5 +1,7 @@
 # buffered-stathat
 
+A buffering utility for stathat
+
 ```
 npm install buffered-stathat
 ```
