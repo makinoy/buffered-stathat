@@ -42,7 +42,7 @@ module.exports = (account, options) => {
                 console.log(account, prefix_ + key, count);
                 return;
             }
-            stathat.trackEZCount(account, prefix_ + key, count);
+            stathat.trackEZCount(account, prefix_ + key, count, () => {});
         });
 
         _.keys(values).forEach((key) => {
@@ -52,7 +52,7 @@ module.exports = (account, options) => {
                     console.log(account, prefix_ + key, value.sum / value.num);
                     return;
                 }
-                stathat.trackEZValue(account, prefix_ + key, value.sum / value.num);
+                stathat.trackEZValue(account, prefix_ + key, value.sum / value.num, () => {});
             }
         });
     };
