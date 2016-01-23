@@ -1,0 +1,32 @@
+{
+  "name": "buffered-stathat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://makinoy@github.com/makinoy/buffered-stathat.git"
+  },
+  "keywords": [
+    "stathat"
+  ],
+  "author": "@makinoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makinoy/buffered-stathat/issues"
+  },
+  "homepage": "https://github.com/makinoy/buffered-stathat#readme",
+  "dependencies": {
+    "lodash": "^4.0.0",
+    "stathat": "0.0.8"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9.1"
+  },
+  "engines" : {
+    "node" : ">=4.2.4"
+  }
+}
