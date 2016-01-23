@@ -3,6 +3,10 @@ var stathat = require('stathat');
 
 module.exports = (account, options) => {
 
+    if (!options) {
+        options = {};
+    }
+
     var prefix_ = options.prefix;
     const interval = options.interval || 60 * 1000;
     const mock = options.mock || false;
